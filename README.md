@@ -50,7 +50,7 @@ However, unfreezing layers in EfficientNetB0 led to a minor increase in loss, su
 
 Despite attempts at data augmentation, the models showed minimal improvement. Due to class imbalance, confusion matrix and classification report analysis indicated that the models were biased toward predicting a single class. 
 
-Future iterations may benefit from collecting more unsigned document samples or applying other class-balancing techniques.
+Future iterations may benefit from collecting more unsigned document samples. Applying class-balancing techniques and varying epochs did not yeild significant differences.
 
 ## Conclusion
 The current model demonstrates the potential for signature detection but is limited by dataset imbalance hence the overfitting. 
